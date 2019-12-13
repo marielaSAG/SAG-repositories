@@ -1,6 +1,6 @@
 # SAG-repositories
 
-* [webMethods](#webmethods)
+* [webMethods](#webMethods)
 * Cumulocity IoT
 * Adabas & Natural
 * Aris
@@ -8,4 +8,4 @@
 
 
 ## webMethods
----
+
