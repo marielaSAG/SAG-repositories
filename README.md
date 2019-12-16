@@ -7,10 +7,10 @@
 </h2>
  
 <p align="center">
-   <strong><a href="#webMethods">webMethods</a></strong> &bull;
-  <strong><a href="#Cumulocity-IoT">Cumulocity IoT</a></strong> &bull;
-   <strong><a href="#">Adabas & Natural</a></strong> &bull;
-  <strong><a href="#">Aris</a></strong> &bull;
+   <strong><a href="#webMethods">webMethods</a></strong> &nbsp; &bull; &nbsp;
+  <strong><a href="#Cumulocity-IoT">Cumulocity IoT</a></strong> &nbsp; &bull; &nbsp;
+   <strong><a href="#">Adabas & Natural</a></strong> &nbsp; &bull; &nbsp; 
+  <strong><a href="#">Aris</a></strong> &nbsp; &bull; &nbsp;
   <strong><a href="#">Alfabet</a></strong>
   <br><br>
 </p>
@@ -44,11 +44,13 @@ This Socket Adapter project covers two demands of advanced Integration Server us
 
 A Cumuocity webapp to migrate applications, dashboards, groups, devices, simulators, smart rules, images, and managed objects between tenants.
 
+---
 
 ### [cumulocity-iot-examples](https://github.com/SoftwareAG/cumulocity-iot-examples)
 
 Collection of examples for beginner Cumulocity developers.
 
+---
 
 ### [cumulocityr](https://github.com/SoftwareAG/cumulocityr)
 
