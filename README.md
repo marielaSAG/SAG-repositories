@@ -1,5 +1,6 @@
 <p align="center">
-<img src="http://techcommunity.softwareag.com/download/SAGHeaderLogo_tcm389-160517.png">
+<img src="http://techcommunity.softwareag.com/download/SAGHeaderLogo_tcm389-160517.png"></br>
+  ## Software AG repositiories
 </p>
 
 <p align="center">
