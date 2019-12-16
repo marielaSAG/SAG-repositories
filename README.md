@@ -8,10 +8,10 @@
 
 <br> 
 <p align="center">
-  <a href="#webMethods">webMethods</a> |
-  <a href="#CumulocityIoT">Cumulocity IoT</a> |
-  <a href="#">Adabas & Natural</a> |
-  <a href="#">Aris</a> |
+  <a href="#webMethods">webMethods</a> &bull;
+  <a href="#CumulocityIoT">Cumulocity IoT</a> &bull;
+  <a href="#">Adabas & Natural</a> &bull;
+  <a href="#">Aris</a> &bull;
   <a href="#">Alfabet</a>
   <br><br>
 </p>
