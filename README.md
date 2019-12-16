@@ -2,9 +2,9 @@
 <img src="https://www.softwareag.com/corporate/images/SAGHeaderLogo_tcm389-160517.png"></br>
 </p>
 
-<h1 align="center">
+<h2 align="center">
    Software AG repositories<br>
-  </h1>
+</h2>
 
 <br> 
 <p align="center">
