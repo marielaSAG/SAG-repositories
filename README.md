@@ -1,3 +1,5 @@
+<img src="http://techcommunity.softwareag.com/download/SAGHeaderLogo_tcm389-160517.png" align="center">
+
 # Software AG repositories
 
 
