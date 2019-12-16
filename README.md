@@ -44,13 +44,11 @@ This Socket Adapter project covers two demands of advanced Integration Server us
 
 A Cumuocity webapp to migrate applications, dashboards, groups, devices, simulators, smart rules, images, and managed objects between tenants.
 
----
 
 ### [cumulocity-iot-examples](https://github.com/SoftwareAG/cumulocity-iot-examples)
 
 Collection of examples for beginner Cumulocity developers.
 
----
 
 ### [cumulocityr](https://github.com/SoftwareAG/cumulocityr)
 
