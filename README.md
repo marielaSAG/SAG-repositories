@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://www.softwareag.com/corporate/images/SAGHeaderLogo_tcm389-160517.png"></br>
+<img src="https://www.softwareag.com/corporate/images/SAGHeaderLogo_tcm389-160517.png" width="250px"></br>
 </p>
 
 <h1 align="center">
