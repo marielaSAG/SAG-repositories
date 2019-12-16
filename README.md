@@ -22,11 +22,13 @@
 
 Collection of examples for beginner webMethods-io developers. It consists of common use cases and starting points for developers getting up to speed with webMethods.io. webMethods.io is an integration platform that enables a wide variety of integration tasks to be accomplishes quickly and easily with a graphical/api interface.
 
+---
 
 ### [webmethods-suite-logfile-archiver](https://github.com/SoftwareAG/webmethods-suite-logfile-archiver)
 
 Archive and (after a customizable retention period) delete log files from webMethods Suite products.
 
+---
 
 ### [webmethods-integrationserver-wxsocketadapter](https://github.com/SoftwareAG/webmethods-integrationserver-wxsocketadapter)
 
@@ -42,11 +44,13 @@ This Socket Adapter project covers two demands of advanced Integration Server us
 
 A Cumuocity webapp to migrate applications, dashboards, groups, devices, simulators, smart rules, images, and managed objects between tenants.
 
+---
 
 ### [cumulocity-iot-examples](https://github.com/SoftwareAG/cumulocity-iot-examples)
 
 Collection of examples for beginner Cumulocity developers.
 
+---
 
 ### [cumulocityr](https://github.com/SoftwareAG/cumulocityr)
 
