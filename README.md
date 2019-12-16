@@ -1,8 +1,6 @@
-<img src="http://techcommunity.softwareag.com/download/SAGHeaderLogo_tcm389-160517.png" align="center">
-
-# Software AG repositories
-
-
+<p align="center">
+<img src="http://techcommunity.softwareag.com/download/SAGHeaderLogo_tcm389-160517.png">
+</p>
 
 <p align="center">
   <a href="#webMethods">webMethods</a> |
