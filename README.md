@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://www.softwareag.com/corporate/images/SAGHeaderLogo_tcm389-160517.png" width="250px"></br>
+<img src="http://techcommunity.softwareag.com/download/developer-communities/logo.png"></br>
 </p>
 
 <h2 align="center">
