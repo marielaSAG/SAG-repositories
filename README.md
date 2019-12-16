@@ -1,4 +1,4 @@
-# SAG repositories
+# Software AG repositories
 
 * [webMethods](#webMethods)
 * [CumulocityIoT](#CumulocityIoT)
