@@ -4,9 +4,9 @@
 
 <p align="center">
   <a href="#webMethods">webMethods</a> |
-  <a href="#CumulocityIoT">Cumulocity IoT</a> |
-  <a href="#">Adabas & Natural</a>
-  <a href="#">Aris</a>
+  <a href="#Cumulocity IoT">Cumulocity IoT</a> |
+  <a href="#">Adabas & Natural</a> |
+  <a href="#">Aris</a> |
   <a href="#">Alfabet</a>
   <br><br>
 </p>
