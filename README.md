@@ -1,8 +1,10 @@
 # Software AG repositories
 
+
+
 <p align="center">
   <a href="#webMethods">webMethods</a> |
-  <a href="#Cumulocity IoT">Cumulocity IoT</a> |
+  <a href="#CumulocityIoT">Cumulocity IoT</a> |
   <a href="#">Adabas & Natural</a> |
   <a href="#">Aris</a> |
   <a href="#">Alfabet</a>
@@ -32,4 +34,4 @@ This Socket Adapter project covers two demands of advanced Integration Server us
  
  ------
 
-## Cumulocity IoT
+## CumulocityIoT
