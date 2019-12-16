@@ -1,7 +1,7 @@
 # SAG repositories
 
 * [webMethods](#webMethods)
-* [Cumulocity IoT](#Cumulocity IoT)
+* [CumulocityIoT](#CumulocityIoT)
 * Adabas & Natural
 * Aris
 * Alfabet
