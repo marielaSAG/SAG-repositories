@@ -21,7 +21,7 @@
 ### [webmethodsio-examples](https://github.com/SoftwareAG/webmethodsio-examples)
 
 Collection of examples for beginner webMethods-io developers. It consists of common use cases and starting points for developers getting up to speed with webMethods.io. webMethods.io is an integration platform that enables a wide variety of integration tasks to be accomplishes quickly and easily with a graphical/api interface. 
-=
+
 
 ### [webmethods-suite-logfile-archiver](https://github.com/SoftwareAG/webmethods-suite-logfile-archiver)
 
