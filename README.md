@@ -1,9 +1,6 @@
 # Software AG repositories
 
- [webMethods](#webMethods) * [CumulocityIoT](#CumulocityIoT)
-* Adabas & Natural
-* Aris
-* Alfabet
+ [webMethods](#webMethods) * [CumulocityIoT](#CumulocityIoT) * Adabas & Natural * Aris * Alfabet
 
 
 ## webMethods
