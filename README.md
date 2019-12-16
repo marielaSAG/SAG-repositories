@@ -1,7 +1,11 @@
 <p align="center">
 <img src="http://techcommunity.softwareag.com/download/SAGHeaderLogo_tcm389-160517.png"></br>
-   Software AG repositiories
 </p>
+
+<h1 align="center">
+   Software AG repositories
+  </h1>
+
 
 <p align="center">
   <a href="#webMethods">webMethods</a> |
