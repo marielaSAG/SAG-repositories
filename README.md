@@ -9,7 +9,7 @@
 <br> 
 <p align="center">
   <a href="#webMethods">webMethods</a> &bull;
-  <a href="#CumulocityIoT">Cumulocity IoT</a> &bull;
+  <a href="#Cumulocity-IoT">Cumulocity IoT</a> &bull;
   <a href="#">Adabas & Natural</a> &bull;
   <a href="#">Aris</a> &bull;
   <a href="#">Alfabet</a>
@@ -36,4 +36,4 @@ This Socket Adapter project covers two demands of advanced Integration Server us
  &ndash; Providing a light-weight way to connect low level devices and applications into the world of Integration Server.
  
 
-## CumulocityIoT
+## Cumulocity IoT
