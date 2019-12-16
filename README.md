@@ -5,8 +5,7 @@
 <h1 align="center">
    Software AG repositories
 </h1>
-
-<br> 
+ 
 <p align="center">
   <a href="#webMethods">webMethods</a> &bull;
   <a href="#Cumulocity-IoT">Cumulocity IoT</a> &bull;
