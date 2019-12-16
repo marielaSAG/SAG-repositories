@@ -3,10 +3,10 @@
 </p>
 
 <h1 align="center">
-   Software AG repositories
+   Software AG repositories<br>
   </h1>
 
-
+<br> 
 <p align="center">
   <a href="#webMethods">webMethods</a> |
   <a href="#CumulocityIoT">Cumulocity IoT</a> |
@@ -16,7 +16,7 @@
   <br><br>
 </p>
 
-## webMethods
+
 
 ### [webmethodsio-examples](https://github.com/SoftwareAG/webmethodsio-examples)
 
