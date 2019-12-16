@@ -2,16 +2,16 @@
 <img src="https://www.softwareag.com/corporate/images/SAGHeaderLogo_tcm389-160517.png" width="250px"></br>
 </p>
 
-<h1 align="center">
-   Software AG repositories
-</h1>
+<h2 align="center">
+   Open source
+</h2>
  
 <p align="center">
-  <a href="#webMethods">webMethods</a> &bull;
-  <a href="#Cumulocity-IoT">Cumulocity IoT</a> &bull;
-  <a href="#">Adabas & Natural</a> &bull;
-  <a href="#">Aris</a> &bull;
-  <a href="#">Alfabet</a>
+   <strong><a href="#webMethods">webMethods</a></strong> &bull;
+  <strong><a href="#Cumulocity-IoT">Cumulocity IoT</a></strong> &bull;
+   <strong><a href="#">Adabas & Natural</a></strong> &bull;
+  <strong><a href="#">Aris</a></strong> &bull;
+  <strong><a href="#">Alfabet</a></strong>
   <br><br>
 </p>
 
