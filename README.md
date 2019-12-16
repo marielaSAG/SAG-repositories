@@ -1,7 +1,15 @@
 # Software AG repositories
 
- [webMethods](#webMethods) * [CumulocityIoT](#CumulocityIoT) * Adabas & Natural * Aris * Alfabet
+### [webMethods](#webMethods) * [CumulocityIoT](#CumulocityIoT) * Adabas & Natural * Aris * Alfabet
 
+<p align="center">
+  <a href="#webMethods">webMethods</a> |
+  <a href="#CumulocityIoT">Cumulocity IoT</a> |
+  <a href="#">Adabas & Natural</a>
+  <a href="#">Aris</a>
+  <a href="#">Alfabet</a>
+  <br><br>
+</p>
 
 ## webMethods
 
@@ -26,4 +34,4 @@ This Socket Adapter project covers two demands of advanced Integration Server us
  
  ------
 
-## CumulocityIoT
+## Cumulocity IoT
