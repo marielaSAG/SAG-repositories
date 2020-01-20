@@ -9,7 +9,7 @@
 <p align="center">
    <strong><a href="#webMethods">webMethods</a></strong> &nbsp; &bull; &nbsp;
   <strong><a href="#Cumulocity-IoT">Cumulocity IoT</a></strong> &nbsp; &bull; &nbsp;
-   <strong><a href="#">Adabas & Natural</a></strong> &nbsp; &bull; &nbsp; 
+   <strong><a href="Adabas-&-Natural">Adabas & Natural</a></strong> &nbsp; &bull; &nbsp; 
   <strong><a href="#">Aris</a></strong> &nbsp; &bull; &nbsp;
   <strong><a href="#">Alfabet</a></strong>
   <br><br>
@@ -56,3 +56,31 @@ Collection of examples for beginner Cumulocity developers.
 ### [cumulocityr](https://github.com/SoftwareAG/cumulocityr)
 
 R client for the Cumulocity API 
+
+<br>
+
+## Adabas & Natural
+
+### adapya – Adabas Python packages
+
+### [adapya-adabas](https://github.com/SoftwareAG/adapya-adabas)
+
+adapya-adabas implements the Adabas database API for Python. It can access local and remote Adabas databases. adapya-adabas comes with scripts and sample programs to show its features. It is being used on Linux, mainframe z/OS, Solaris and Windows.
+
+---
+
+### [adapya-base](https://github.com/SoftwareAG/adapya-base)
+adapya-base provides the foundations for the other adapya packages – e.g. the Datamap class. adapya-base comes with scripts to transfer files from mainframe or process SMF performance records.
+
+---
+
+### [adapya-entirex](https://github.com/SoftwareAG/adapya-entirex)
+adapya-entirex implements the EntireX API for Python. Using the Advanced Communication Interface (ACI) it allows persistent messaging with the EntireX Broker. EntireX is a component in the webMethods high-performance communication infrastructure.
+
+---
+
+### [adapya-era](https://github.com/SoftwareAG/adapya-era)
+adapya-era implements the messages API with the Event Replicator for Adabas. The Event Replicator for Adabas is an add-on product to Adabas that allows replicating database data to other systems. Client programs (also called target adapters) receive event replication data through a messaging system like MQ series or EntireX Broker. adapya-era can be used to write target adapters in Python. The package also consists of scripts that can send requests to the Replicator and receive event data via the EntireX Broker messaging system.
+
+
+
