@@ -9,7 +9,7 @@
 <p align="center">
    <strong><a href="#webMethods">webMethods</a></strong> &nbsp; &bull; &nbsp;
   <strong><a href="#Cumulocity-IoT">Cumulocity IoT</a></strong> &nbsp; &bull; &nbsp;
-   <strong><a href="#Adabas-&Natural">Adabas & Natural</a></strong> &nbsp; &bull; &nbsp; 
+   <strong><a href="#Adabas-&-Natural">Adabas & Natural</a></strong> &nbsp; &bull; &nbsp; 
   <strong><a href="#Aris">Aris</a></strong> &nbsp; &bull; &nbsp;
   <strong><a href="#Alfabet">Alfabet</a></strong>
   <br><br>
@@ -59,7 +59,7 @@ R client for the Cumulocity API
 
 <br>
 
-## Adabas &Natural
+## Adabas & Natural
 
 ### adapya – Adabas Python packages
 
