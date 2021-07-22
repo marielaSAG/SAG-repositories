@@ -23,3 +23,4 @@ We use this example to remind our moderators once a week for unanswered topics i
 8.  This completes the workflow and connects to stop step.<br/>![image](https://github.com/SoftwareAG/webmethodsio-examples/blob/master/httprequest-sendemail/FinalWorkflow.png)
 
 9.  Check the email to review the results of the workflow.
+10. 
