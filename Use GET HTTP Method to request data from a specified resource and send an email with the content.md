@@ -8,7 +8,7 @@ We use this example to remind our moderators once a week for unanswered topics i
 
 1.  Go ahead and get started creating a blank workflow. If you need a refresher on how to get to this point, this [guide](https://docs.webmethods.io/integration/workflow_building_blocks/creating_first_workflow/#gsc.tab=0) can be a great introduction. 
 
-2.  If you want the email to be sent periodically, you can do this by using polling triggers. In this example we will use Clock trigger and set an email to be send every week. Click on the small setting icon on start step and choose Clock trigger. Use the edit option to choose day and time and click Done.<br/>![image](/PollingTriggerClock.png)
+2.  If you want the email to be sent periodically, you can do this by using polling triggers. In this example we will use Clock trigger and set an email to be send every week. Click on the small setting icon on start step and choose Clock trigger. Use the edit option to choose day and time and click Done.<br/>![image](https://github.com/marielaSAG/SAG-repositories/blob/master/PollingTriggerClock.png?raw=true)
 
 3.  Add the HTTP Request service in the canvas by drag and drop feature. This automatically connects with the Clock trigger.<br/>![image](https://github.com/SoftwareAG/webmethodsio-examples/blob/master/httprequest-sendemail/ConnectHTTPRequest.png)
 
