@@ -10,7 +10,7 @@ We use this example to remind our moderators once a week for unanswered topics i
 
 2.  If you want the email to be sent periodically, you can do this by using polling triggers. In this example we will use Clock trigger and set an email to be send every week. Click on the small setting icon on start step and choose Clock trigger. Use the edit option to choose day and time and click Done.<br/>![image](https://user-images.githubusercontent.com/45091718/126774332-8decea87-297b-49f4-ba3f-7d771462ca42.png)
 
-3.  Add the HTTP Request service in the canvas by drag and drop feature. This automatically connects with the Clock trigger.<br/>![image](images/ConnectHTTPRequest.png?raw=true)
+3.  Add the HTTP Request service in the canvas by drag and drop feature. This automatically connects with the Clock trigger.<br/>![image](ConnectHTTPRequest.png?raw=true)
 
 4.  Click on the small settings icon on the HTTP Request service to select HTTP Method and add an URL.<br/>![image](https://github.com/SoftwareAG/webmethodsio-examples/blob/master/httprequest-sendemail/HTTPRequest.png?raw=true)
 
