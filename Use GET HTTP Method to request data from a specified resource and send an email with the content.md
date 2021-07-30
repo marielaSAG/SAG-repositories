@@ -12,7 +12,7 @@ We use this example to remind our moderators once a week for unanswered topics i
 
 3.  Add the HTTP Request service in the canvas by drag and drop feature. This automatically connects with the Clock trigger.<br/>![image](images/ConnectHTTPRequest.png?raw=true)
 
-4.  Click on the small settings icon on the HTTP Request service to select HTTP Method and add an URL.<br/>![image](https://github.com/SoftwareAG/webmethodsio-examples/blob/master/httprequest-sendemail/HTTPRequest.png)
+4.  Click on the small settings icon on the HTTP Request service to select HTTP Method and add an URL.<br/>![image](https://github.com/SoftwareAG/webmethodsio-examples/blob/master/httprequest-sendemail/HTTPRequest.png?raw=true)
 
 5.  To create custom HTML email template use Node.js service and add it in the canvas by drag and drop feature. Connect it to HTTP Request service.<br/>![image](https://github.com/SoftwareAG/webmethodsio-examples/blob/master/httprequest-sendemail/Nodejs.png)  ![image](https://github.com/SoftwareAG/webmethodsio-examples/blob/master/httprequest-sendemail/AddHTML.png)
 
