@@ -14,7 +14,7 @@ We use this example to remind our moderators once a week for unanswered topics i
 
 4.  Click on the small settings icon on the HTTP Request service to select HTTP Method and add an URL.<br/>![image](https://github.com/SoftwareAG/webmethodsio-examples/blob/master/httprequest-sendemail/HTTPRequest.png?raw=true)
 
-5.  To create custom HTML email template use Node.js service and add it in the canvas by drag and drop feature. Connect it to HTTP Request service.<br/>![image](https://github.com/SoftwareAG/webmethodsio-examples/blob/master/httprequest-sendemail/Nodejs.png)  ![image](https://github.com/SoftwareAG/webmethodsio-examples/blob/master/httprequest-sendemail/AddHTML.png)
+5.  To create custom HTML email template use Node.js service and add it in the canvas by drag and drop feature. Connect it to HTTP Request service.<br/>![image](https://github.com/SoftwareAG/webmethodsio-examples/blob/master/httprequest-sendemail/Nodejs.png)  ![image](https://github.com/marielaSAG/SAG-repositories/blob/master/images/ConnectHTTPRequest.png)
 
 6.  We have a cool feature which is sending email where you can send the content to respective audience. Search for "send an email" and drag and drop the "Send an Email" service to canvas.
 
