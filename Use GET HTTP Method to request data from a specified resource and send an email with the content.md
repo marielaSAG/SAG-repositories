@@ -2,7 +2,7 @@
 
 This example shows how to send an email to respective audience with requested data from a specified resource. 
 
-We use this example to remind our moderators once a week for unanswered topics in [TECHforums](https://tech.forums.softwareag.com/). In Discourse platform such functionality is missing and using webmethods.io for creating it turned out to be much easier than creating a Discourse plugin.
+We use this example to remind our moderators once a week for unanswered topics in [TECHforums](https://tech.forums.softwareag.com/). In Discourse platform such functionality is missing and using webmethods.io for creating it turned out to be much easier than creating a Discourse plugin..
 
 ## Setup
 
