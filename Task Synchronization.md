@@ -1,6 +1,6 @@
 # Task Synchronization
 
-This example demonstrates how to keep two task management applications in synch using webMethods.io Integration capabilities. 
+This example demonstrates how to keep two task management applications in synch using webMethods.io Integration capabilities.  Test
 
 A possible requirement would be that some tasks created in a task management application at work need to be created (and updated) in some private task app
 
