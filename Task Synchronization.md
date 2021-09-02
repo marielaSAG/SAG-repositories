@@ -25,7 +25,7 @@ To start, you need to log into webMethods cloud and create an empty project in w
 
 Create a new workflow, call it something like “synchNewTasks” and provide a meaningful description
 
-![P1](./images/Image002.png)
+![P1](https://github.com/SoftwareAG/webMethods-io-examples/blob/master/wmio-tasksynch/images/Image002.png?raw=true)
 
 You have a fresh “canvas” where you can start to draw your integration workflow by
 configuring Triggers (that start the workflow) and other workflow steps by choosing from the palette
