@@ -40,7 +40,7 @@ In our example, you want the workflow to be triggered in case of a new task crea
 
 Start typing “Todo...” and select “Todoist” from the list.
 
-![P2](./images/Image003.png)
+![P2](https://github.com/SoftwareAG/webMethods-io-examples/blob/master/wmio-tasksynch/images/Image003.png?raw=true)
 
 Now you have to configure the trigger by selecting the Trigger action “Task Created”, providing a
 Label for the step and – since it is the first time we are accessing Todoist, we also need to authorize
