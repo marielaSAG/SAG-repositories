@@ -50,16 +50,16 @@ On the Authorize box, click on the + Sign and select “Default Authorization”
 Authorization mechanisms to connect to Todoist and get access keys for the API etc. This all happens
 in the background and the user does not need to care.
 
-![P4](./images/Image004.png)
+![P4](https://github.com/SoftwareAG/webMethods-io-examples/blob/master/wmio-tasksynch/images/Image004.png?raw=true)
 
 Select “Allow” to allow webMethods.io to access Todoist information.
 
-![P5](./images/Image005.png)
+![P5](https://github.com/SoftwareAG/webMethods-io-examples/blob/master/wmio-tasksynch/images/Image005.png?raw=true)
 
 Now that you have access to Todoist you can can complete the configuration of the trigger, by
 providing the Project name from the drop down box.
 
-![P6](./images/Image006.png)
+![P6](https://github.com/SoftwareAG/webMethods-io-examples/blob/master/wmio-tasksynch/images/Image006.png?raw=true)
 
 At this point we can save and test the trigger interactively. 
 
@@ -68,7 +68,7 @@ new Task in the “Inbox” Project in Todoist.
 
 Then switch back to your workflow and click “Test”
 
-![P1](./images/Image007.png)
+![P1](https://github.com/SoftwareAG/webMethods-io-examples/blob/master/wmio-tasksynch/images/Image007.png?raw=true)
 
 Examine the data provided in the response. You will find the task name and Id, as well as project and
 user identification information. Click “Done” and you have successfully configured the first step of
@@ -81,7 +81,7 @@ Next we add a step to update Wunderlist with the new task created in Todoist.
 For this we can select the Wunderlist step from the palette on the right and drag it to the canvas. If
 you start typing the name, it will make it easier to find the step:
 
-![P1](./images/Image008.png)    ![P1](file://images/Image009.png)
+![P1](https://github.com/SoftwareAG/webMethods-io-examples/blob/master/wmio-tasksynch/images/Image008.png?raw=true)    ![P1](https://github.com/SoftwareAG/webMethods-io-examples/blob/master/wmio-tasksynch/images/Image009.png?raw=true)
 
 By clicking on the symbol on the canvas and selecting the gear symbol, you can configure the
 settings of the step.
@@ -91,7 +91,7 @@ the first time, we have to create an authorization object by clicking on the + S
 “Default Authorization”. Note how easy it is to set up authentication / authorization to SaaS apps
 using webMethods.io Integration
 
-![P1](./images/Image010.png)
+![P1](https://github.com/SoftwareAG/webMethods-io-examples/blob/master/wmio-tasksynch/images/Image010.png?raw=true)
 
 When you click “Next” you get to the mapping screen, where you can map fields from upstream
 workflow steps to the current step parameters. THe “Create Task” operation of the Wunderlist
@@ -101,18 +101,18 @@ from the dropdown listbox or map values from the left hand panel.
 We select “Inbox” as the List ID and map the Todoist Task “content” field to the “Task title” of
 Wunderlist, as well as the Due date fields.
 
-![P1](./images/Image011.png)
+![P1](https://github.com/SoftwareAG/webMethods-io-examples/blob/master/wmio-tasksynch/images/Image011.png?raw=true)
 
 By clicking next, you can again test the mapping / invocation of the createTask in Wunderlist
 
 
-![P1](./images/Image012.png)
+![P1](https://github.com/SoftwareAG/webMethods-io-examples/blob/master/wmio-tasksynch/images/Image012.png?raw=true)
 
 Note that the actions are actually performed, so you will find a new task in Wunderlist if you look at
 the “Inbox” there. Note that sometimes you have to refresh (F5) in order to see updates in the
 applications.
 
-![P1](./images/Image013.png)
+![P1](https://github.com/SoftwareAG/webMethods-io-examples/blob/master/wmio-tasksynch/images/Image013.png?raw=true)
 
 ### Adding notifications
 
@@ -122,14 +122,14 @@ could map the mail address from the task object, or notify a fixed user.
 To demonstrate project parameters, we will define an adminEmail address where we will send notifications to.
 Open the Workflow settings page and create a new parameter “adminEMail” for this purpose
 
-![P1](./images/Image015.png)
+![P1](https://github.com/SoftwareAG/webMethods-io-examples/blob/master/wmio-tasksynch/images/Image015.png?raw=true)
 
 Now we can drag a “Notification” step from the tools palette to the canvas and configure it to send a
 notification mail
 
-![P1](./images/Image016.png)
+![P1](https://github.com/SoftwareAG/webMethods-io-examples/blob/master/wmio-tasksynch/images/Image016.png?raw=true)
 
-![P1](./images/Image017.png)
+![P1](https://github.com/SoftwareAG/webMethods-io-examples/blob/master/wmio-tasksynch/images/Image017.png?raw=true)
 
 The body of the email can contain a mix of free text and fields mapped from the left side in a single
 text field, e.g. the mail body. The email “to:” address can be mapped from the just created project
@@ -143,12 +143,12 @@ address defined.
 Last, but not least, we can configure a “catch all” Error handler at the worflow level. If any of the
 steps fails, the workflow will invoke this “Global Error Handler” subworkflow.
 
-![P1](./images/Image018.png)
+![P1](https://github.com/SoftwareAG/webMethods-io-examples/blob/master/wmio-tasksynch/images/Image018.png?raw=true)
 
 To use it, you drag a “global error handler” icon on the canvas and configure some step inside it, as
 an example you could send yet another notification mail containing the error message
 
-![P1](./images/Image019.png)
+![P1](https://github.com/SoftwareAG/webMethods-io-examples/blob/master/wmio-tasksynch/images/Image019.png?raw=true)
 
 And we are done with the first, easy version of our workflow.
 
@@ -156,7 +156,7 @@ And we are done with the first, easy version of our workflow.
 
 We can now test it end to end, by saving it and creating a new task in the Todoist Inbox.
 
-![P1](./images/Image020.png)
+![P1](https://github.com/SoftwareAG/webMethods-io-examples/blob/master/wmio-tasksynch/images/Image020.png?raw=true)
 
 The workflow should trigger after a short moment and the activity / steps will highlight while they
 are executed. 
@@ -165,16 +165,16 @@ If you open the debug window (using the symbol in the bottom left corner of the
 screen) you see the variables and values used to run the workflow, as well as the execution times.
 
 
-![P1](./images/Image021.png)
+![P1](https://github.com/SoftwareAG/webMethods-io-examples/blob/master/wmio-tasksynch/images/Image021.png?raw=true)
 
 To validate that the notification has arrived, oben your mail inbox:
 
-![P1](./images/Image022.png)
+![P1](https://github.com/SoftwareAG/webMethods-io-examples/blob/master/wmio-tasksynch/images/Image022.png?raw=true)
 
 And to validate that the end-to-end process has worked correctly, we can open the Inbox in
 Wunderlist (don’t forget to refresh F5):
 
-![P1](./images/Image023.png)
+![P1](https://github.com/SoftwareAG/webMethods-io-examples/blob/master/wmio-tasksynch/images/Image023.png?raw=true)
 
 ## Scenario 2: Synchronize Task Updates
 
@@ -186,7 +186,7 @@ Todoist.
 
 Let’s create a second workflow in the same project and provide a meaningful name / description
 
-![P1](./images/Image024.png)
+![P1](https://github.com/SoftwareAG/webMethods-io-examples/blob/master/wmio-tasksynch/images/Image024.png?raw=true)
 
 ### Triggering on change 
 
@@ -194,14 +194,14 @@ Again, we need to trigger the workflow, this time we will do it based on a “Ta
 from Todoist. Let’s configure the Todoist Trigger, by selecting “Create a new event for Todoist” at
 the top of the dialog and creating a Task Completed event as follows:
 
-![P1](./images/Image026.png)
+![P1](https://github.com/SoftwareAG/webMethods-io-examples/blob/master/wmio-tasksynch/images/Image026.png?raw=true)
 
 Note that we can reuse the Authorisation credentials from the other workflow – they are available
 across all workflows in the same project.
 
 And of course, testing is a good idea:
 
-![P1](./images/Image027.png)
+![P1](https://github.com/SoftwareAG/webMethods-io-examples/blob/master/wmio-tasksynch/images/Image027.png?raw=true)
 
 ### Task update step
 
@@ -209,7 +209,7 @@ The next obvious step would be to create a Wunderlist “Update Task” step.
 When we try to do that, hower, we will find out that it requires a Task ID and a Revision number to
 identify which task to update.
 
-![P1](./images/Image029.png)
+![P1](https://github.com/SoftwareAG/webMethods-io-examples/blob/master/wmio-tasksynch/images/Image029.png?raw=true)
 
 Hmmm.... so how do we find out which Task ID in Wunderlist corresponds to the Task of Todoist ?
 Correct – we need to store a cross-reference mapping across the workflows.
@@ -226,32 +226,32 @@ Since we are in the Update workflow, let’s finish building that one first, and
 For storage across workflows, we need to use the “Account Store” workflow step. (the others are
 valid only within one workflow).
 
-![P1](./images/Image031.png)
+![P1](https://github.com/SoftwareAG/webMethods-io-examples/blob/master/wmio-tasksynch/images/Image031.png?raw=true)
 
 And configure it as follows:
 
-![P1](./images/Image032.png)
+![P1](https://github.com/SoftwareAG/webMethods-io-examples/blob/master/wmio-tasksynch/images/Image032.png?raw=true)
 
 Continue to drag and drop workflow steps to the canvas to achieve the following picture:
 
-![P1](./images/Image040.png)
+![P1](https://github.com/SoftwareAG/webMethods-io-examples/blob/master/wmio-tasksynch/images/Image040.png?raw=true)
 
 Now we can go about configuring the steps above as follows:
 
 The first Logging step will be used to log the task IDs from Todoist to Wunderlist, and we also need
 to extract the Id, we do that by creating a transformation of type (Object -> Get)
 
-![P1](./images/Image034.png)
+![P1](https://github.com/SoftwareAG/webMethods-io-examples/blob/master/wmio-tasksynch/images/Image034.png?raw=true)
 
 Now that we have the Wunderlist task ID as an output of the previous step, we can use it to configure the step “Get Task Details” like
 so:
 
-![P1](./images/Image041.png)
+![P1](https://github.com/SoftwareAG/webMethods-io-examples/blob/master/wmio-tasksynch/images/Image041.png?raw=true)
 
 This gives us the Task details, including all the fields like Revision Number etc. To update the task
 details:
 
-![P1](./images/Image042.png)
+![P1](https://github.com/SoftwareAG/webMethods-io-examples/blob/master/wmio-tasksynch/images/Image042.png?raw=true)
 
 ### Update the task creation workflow
 
@@ -261,33 +261,33 @@ workflow to store the key pairs when a new task is created.
 So we save / close this workflow and open “create” workflow again – and we insert an new “Account
 Store” step to save the keypair like this:
 
-![P1](./images/Image044.png)
+![P1](https://github.com/SoftwareAG/webMethods-io-examples/blob/master/wmio-tasksynch/images/Image044.png?raw=true)
 
 Now the ”synchNewTask” workflow should look like this:
 
 
-![P1](./images/Image046.png)
+![P1](https://github.com/SoftwareAG/webMethods-io-examples/blob/master/wmio-tasksynch/images/Image046.png?raw=true)
 
 ### Testing it all 
 
 We’re ready to test again, end to end. 
 We create a new task in the Todoist Inbox:
 
-![P1](./images/Image045.png)
+![P1](https://github.com/SoftwareAG/webMethods-io-examples/blob/master/wmio-tasksynch/images/Image045.png?raw=true)
 
 In the debugging window, we can see the IDs mapping
 
-![P1](./images/Image047.png)
+![P1](https://github.com/SoftwareAG/webMethods-io-examples/blob/master/wmio-tasksynch/images/Image047.png?raw=true)
 
 The new task shows up in Wunderlist:
 
-![P1](./images/Image048.png)
+![P1](https://github.com/SoftwareAG/webMethods-io-examples/blob/master/wmio-tasksynch/images/Image048.png?raw=true)
 
 Next, close the task in Todoist by clicking on the Task.
 
 In the synchCloseTask workflow, you should see the following happening:
 
-![P1](./images/Image049.png)
+![P1](https://github.com/SoftwareAG/webMethods-io-examples/blob/master/wmio-tasksynch/images/Image049.png?raw=true)
 
 The Todo / Task will disappear from Wunderlist Inbox as well.
 
